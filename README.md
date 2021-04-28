@@ -1,4 +1,4 @@
-# EGA federated data analysis using DataSHIELD + Opal infrastructure Workskop
+# Federated data analysis of EGA studies using `DataSHIELD + Opal` infrastructure
 
 The tutorial can be found here:
 
