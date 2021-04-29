@@ -2,7 +2,7 @@
 
 The tutorial can be found here:
 
-- [Vignette omics data analysis](https://rpubs.com/jrgonzalezISGlobal/tutorial_EGA_DS)
+- [Vignette genomic and RNAseq analysis of EGA data](https://rpubs.com/jrgonzalezISGlobal/EGA_DataSHIELD)
 
 In order to reproduce the vignette follow the instructions described in the next sections
 
