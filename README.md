@@ -1,4 +1,4 @@
-# Federated data analysis of EGA studies using `DataSHIELD + Opal` infrastructure
+# Federated privacy-protected bioinformatic analysis of EGA studies using `DataSHIELD + Opal` infrastructure
 
 The tutorial can be found here:
 
