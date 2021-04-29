@@ -11,20 +11,19 @@ In order to reproduce the vignette follow the instructions described in the next
 For those in hurry:
 
 ```
-install.packages(c("readr", "dplyr", "ssh", "resourcer", "DSOpal", "ggrepel"))
+install.packages(c("DSOpal"))
 install.packages("dsBaseClient", repos = c("https://cran.obiba.org"))
 devtools::install_github("isglobal-brge/dsOmicsClient")
 ```
 
-Some dependencies can be needed:
+Some dependencies can also be needed:
 
 ```
 install.packages(c("fields","metafor","ggplot2","gridExtra",
-                   "data.table", "ggrepel"))
+                   "data.table", "ggrepel", "readr", "dplyr"))
 ```
 
 And probably [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
-
 
 
 For the others or if you encounter issues, see instructions that follows.
@@ -36,10 +35,6 @@ Tidy files:
 * [readr](https://cran.r-project.org/package=readr): Read Rectangular Text Data
 * [dplyr](https://cran.r-project.org/package=dplyr): A Grammar of Data Manipulation
 
-Remote computation server:
-
-* [ssh](https://cran.r-project.org/package=ssh): Secure Shell (SSH) Client for R
-
 We also need to install those packages to illustrate how to make use of the resources in DataSHIELD
 
 * [DSOpal](https://cran.r-project.org/web/packages/DSOpal/index.html): DataSHIELD Implementation for Opal
@@ -49,7 +44,6 @@ We also need to install those packages to illustrate how to make use of the reso
 In a R console, install these R packages using the commands:
 
 ```
-install.packages(c("readr", "dplyr", "ssh"))
 install.packages(c("DSOpal"))
 install.packages("dsBaseClient", repos = c("https://cran.obiba.org"))
 devtools::install_github("isglobal-brge/dsOmicsClient")
@@ -59,7 +53,7 @@ Some dependencies can be needed:
 
 ```
 install.packages(c("fields","metafor","ggplot2","gridExtra","data.table",
-                  "ggrepel"))
+                  "ggrepel", "readr", "dplyr"))
 ```
 
 ### 1. R environment
